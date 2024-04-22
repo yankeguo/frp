@@ -76,7 +76,7 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           pull: true
-          dockerfile: Dockerfile.frps
+          file: Dockerfile.frps
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta_frps.outputs.tags }}
           labels: ${{ steps.meta_frps.outputs.labels }}
@@ -88,7 +88,7 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           pull: true
-          dockerfile: Dockerfile.frpc
+          file: Dockerfile.frpc
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta_frpc.outputs.tags }}
           labels: ${{ steps.meta_frpc.outputs.labels }}
