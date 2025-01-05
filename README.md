@@ -5,15 +5,15 @@ Container image for fatedier/frp
 ## Usage
 
 ```shell
-docker pull yankeguo/frp:frps-0.57.0
-#docker pull ghcr.io/yankeguo/frp:frps-0.57.0
-docker run -v /path/to/frps.toml:/etc/frp/frps.toml -p 7000:7000 -p 7500:7500 -p 8080:8080 yankeguo/frp:frps-0.57.0
+docker pull yankeguo/frp:frps-0.61.1
+#docker pull ghcr.io/yankeguo/frp:frps-0.61.1
+docker run -v /path/to/frps.toml:/etc/frp/frps.toml -p 7000:7000 -p 7500:7500 -p 8080:8080 yankeguo/frp:frps-0.61.1
 ```
 
 ```shell
-docker pull yankeguo/frp:frpc-0.57.0
-#docker pull ghcr.io/yankeguo/frp:frpc-0.57.0
-docker run -v /path/to/frpc.toml:/etc/frp/frpc.toml yankeguo/frp:frpc-0.57.0
+docker pull yankeguo/frp:frpc-0.61.1
+#docker pull ghcr.io/yankeguo/frp:frpc-0.61.1
+docker run -v /path/to/frpc.toml:/etc/frp/frpc.toml yankeguo/frp:frpc-0.61.1
 ```
 
 ## Credits
