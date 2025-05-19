@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v0.62.1 - 2025-05-19
+#### Features
+- bump to 0.62.1 - (28b011f) - GUO YANKE
+
+- - -
+
 ## v0.61.1 - 2025-01-05
 #### Documentation
 - update README.md [skip ci] - (28d7e38) - GUO YANKE
